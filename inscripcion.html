@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Escuela de Educación Artística</title>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">EEA 1</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html#disciplinas">Disciplinas</a></li>
+            <li><a href="taller.html">Talleres</a></li>
+            <li><a href="inscripcion.html">Inscripción</a></li>
+        </ul>
+    </nav>
+</head>
+
+
+<body>
+
+    <section id="inscripcion" class="contacto-section">
+    <div class="contacto-container">
+        <h3>Inscripción</h3>
+        <p>Una vez enviado el formulario, completá las planillas de inscripción y acercalas a la escuela</p>
+        
+        <form action="#" method="POST" class="contacto-form">
+            <div class="form-group">
+                <label >Datos del/la ingresante</label>
+                <input type="text" placeholder="Apellido/s" required>
+                <br><input type="text" placeholder="Nombre/s" required>
+                <input type="text" placeholder="DNI" required>
+                <input type="text" placeholder="Fecha de Nacimiento" required>
+            </div>
+
+            <div class="form-group">
+                <label >Escuela de procedencia</label>
+                <select>
+                    <option>Primaria</option>
+                    <option>Secundaria</option>
+                </select>
+                <textarea>N°</textarea>
+            </div>
+
+            <div class="form-group">
+                <label >Datos de Madre/Padre/Tutor</label>
+                <select>
+                    <option>Madre</option>
+                    <option>Padre</option>
+                    <option>Tutor/a</option>
+                </select>
+                <input type="text" placeholder="Apellido/s">
+                <input type="text" placeholder="Nombre/s">
+                <input type="text" placeholder="DNI">
+                <input type="text" placeholder="Teléfono">
+                <input type="text" placeholder="Domicilio">
+                <input type="text" placeholder="Localidad">
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar Formulario</button>
+        </form>
+    </div>
+</section>
+    
+
+
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="redes-sociales">
+                <a href="https://www.facebook.com/eesteticaroqueperez/" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/escuela_artistica_rp/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
