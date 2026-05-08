@@ -60,7 +60,7 @@ body {
 }
 
 .header-content h1 { font-size: 3.5rem; text-transform: uppercase; margin: 0; text-align: center; }
-.header-content h2 {
+.hero-header .header-content h2 {
     font-size: 1.8rem;
     font-weight: bold;       /* Para que tenga el mismo peso que el h3 */
     margin: 0;
