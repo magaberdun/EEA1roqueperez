@@ -94,6 +94,13 @@ h3 {
 
 p { max-width: 700px; margin: 0 auto 20px auto; }
 
+#quienes-somos p {
+    font-size: 1.2rem;   /* Ajusta este número hasta que te guste el tamaño */
+    max-width: 900px;    /* Opcional: permite que el texto sea un poco más ancho si el font-size es grande */
+    line-height: 1.8;    /* Aumenta un poco el espacio entre líneas para que sea fácil de leer */
+    margin-bottom: 25px; /* Espacio entre párrafos */
+}
+
 /* Especial para la primera sección de bienvenida */
 main section:first-of-type { background: white; border-bottom: 1px solid #eaeaea; }
 
